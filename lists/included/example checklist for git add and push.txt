@@ -1,0 +1,2 @@
+run git commit -am "Message" to add and commit files to local repo
+run git push to send them to the remote
