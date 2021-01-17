@@ -3,7 +3,7 @@ import sys
 try:
     filename = sys.argv[1]
 except IndexError:
-    print("It looks like you didn't specify a file! You can drag a file from the file browser in most operating systems to the console window. Make sure there's a space between the command (sneklist) and the checklist you want to open.")
+    print("It looks like you didn't specify a file! You can drag a file from the file browser in most operating systems to the console window. Make sure there's a space between the script (main.py) and the checklist you want to open.")
     sys.exit(1)
 try:
     lines = open(filename).read().splitlines()
